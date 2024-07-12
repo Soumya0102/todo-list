@@ -1,0 +1,91 @@
+/* src/App.css */
+
+.App {
+    text-align: center;
+    background-color: #f0f4f8;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .filters, .sorting {
+    margin: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  li {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+  }
+  
+  li:hover {
+    background-color: #f9f9f9;
+  }
+  
+  li span {
+    flex-grow: 1;
+    text-align: left;
+    margin-left: 10px;
+  }
+  
+  li button {
+    background-color: #28a745;
+    margin-left: 5px;
+  }
+  
+  li button:hover {
+    background-color: #218838;
+  }
+  
+  li button.remove {
+    background-color: #dc3545;
+  }
+  
+  li button.remove:hover {
+    background-color: #c82333;
+  }
+  
